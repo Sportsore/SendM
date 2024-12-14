@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إرسال رسالة مجهولة</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="image-overlay">
+        <img src="https://stream.gkbotz.workers.dev/dl/675c9ce904c2bb79adb91186" alt="Header Image">
+      </div>
+      <h1>إرسال رسالة مجهولة</h1>
+      <p>ارسل رساله مجانية دون الكشف عن هويتك.</p>
+    </div>
+
+    <div class="form-section">
+      <label for="recipient-name">اكتب يوزر الشخص مع@هذه الاشاره</label>
+      <input type="text" id="recipient-name" placeholder="أدخل اسم الشخص">
+
+      <label for="message">الرسالة:</label>
+      <textarea id="message" placeholder="اكتب رسالتك هنا..."></textarea>
+
+      <label for="your-name">يوزرك للتواصل (اختياري):</label>
+      <input type="text" id="your-name" placeholder="أدخل اسمك هنا">
+
+      <button onclick="sendMessage()">إرسال الرسالة</button>
+    </div>
+
+    <div class="messages-section">
+      <h2>رسائلي المجهولة</h2>
+      <ul id="message-list"></ul>
+    </div>
+
+    <footer>
+      <p>حقوق النشر © 2024 <a href="https://t.me/caser7" target="_blank">caser7</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
